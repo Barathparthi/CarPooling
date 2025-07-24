@@ -1,0 +1,82 @@
+[
+  {
+    "_id": "booking1",
+    "ride": "ride1",
+    "rider": "user2",
+    "seatsBooked": 1,
+    "status": "confirmed",
+    "createdAt": "2023-09-25T01:00:00Z"
+  },
+  {
+    "_id": "booking2",
+    "ride": "ride2",
+    "rider": "user2",
+    "seatsBooked": 1,
+    "status": "pending",
+    "createdAt": "2023-09-25T01:00:00Z"
+  },
+  {
+    "_id": "booking3",
+    "ride": "ride3",
+    "rider": "user5",
+    "seatsBooked": 1,
+    "status": "confirmed",
+    "createdAt": "2023-09-25T01:00:00Z"
+  },
+  {
+    "_id": "booking4",
+    "ride": "ride4",
+    "rider": "user5",
+    "seatsBooked": 1,
+    "status": "completed",
+    "createdAt": "2023-09-25T01:00:00Z"
+  },
+  {
+    "_id": "booking5",
+    "ride": "ride5",
+    "rider": "user7",
+    "seatsBooked": 1,
+    "status": "confirmed",
+    "createdAt": "2023-09-25T01:00:00Z"
+  },
+  {
+    "_id": "booking6",
+    "ride": "ride6",
+    "rider": "user7",
+    "seatsBooked": 1,
+    "status": "confirmed",
+    "createdAt": "2023-09-25T01:00:00Z"
+  },
+  {
+    "_id": "booking7",
+    "ride": "ride6",
+    "rider": "user2",
+    "seatsBooked": 1,
+    "status": "confirmed",
+    "createdAt": "2023-09-25T01:00:00Z"
+  },
+  {
+    "_id": "booking8",
+    "ride": "ride8",
+    "rider": "user9",
+    "seatsBooked": 1,
+    "status": "confirmed",
+    "createdAt": "2023-09-25T01:00:00Z"
+  },
+  {
+    "_id": "booking9",
+    "ride": "ride8",
+    "rider": "user2",
+    "seatsBooked": 1,
+    "status": "cancelled",
+    "createdAt": "2023-09-25T01:00:00Z"
+  },
+  {
+    "_id": "booking10",
+    "ride": "ride9",
+    "rider": "user7",
+    "seatsBooked": 1,
+    "status": "confirmed",
+    "createdAt": "2023-09-25T01:00:00Z"
+  }
+]

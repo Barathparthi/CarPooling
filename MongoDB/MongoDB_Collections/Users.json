@@ -1,0 +1,132 @@
+[
+  {
+    "_id": "user1",
+    "email": "john@example.com",
+    "password": "hashed123",
+    "name": "John Doe",
+    "phone": "123-456-7890",
+    "role": "driver",
+    "isVerified": false,
+    "emergencyContact": { "name": "Emergency Contact", "phone": "987-654-3210" },
+    "ratings": [
+      { "rating": 5, "comment": "Great driver!", "ratedBy": "user2" },
+      { "rating": 4, "comment": "Nice rider", "ratedBy": "user2" }
+    ]
+  },
+  {
+    "_id": "user2",
+    "email": "jane@example.com",
+    "password": "hashed456",
+    "name": "Jane Smith",
+    "phone": "123-456-7891",
+    "role": "rider",
+    "isVerified": false,
+    "emergencyContact": { "name": "Emergency Contact", "phone": "987-654-3211" },
+    "ratings": [
+      { "rating": 4, "comment": "Nice rider", "ratedBy": "user1" }
+    ]
+  },
+  {
+    "_id": "user3",
+    "email": "admin@example.com",
+    "password": "hashed789",
+    "name": "Admin User",
+    "phone": "123-456-7892",
+    "role": "admin",
+    "isVerified": false,
+    "emergencyContact": { "name": "Emergency Contact", "phone": "987-654-3212" },
+    "ratings": []
+  },
+  {
+    "_id": "user4",
+    "email": "mike@example.com",
+    "password": "hashed101",
+    "name": "Mike Brown",
+    "phone": "123-456-7893",
+    "role": "driver",
+    "isVerified": false,
+    "emergencyContact": { "name": "Emergency Contact", "phone": "987-654-3213" },
+    "ratings": [
+      { "rating": 5, "comment": "Smooth ride", "ratedBy": "user5" },
+      { "rating": 4, "comment": "Good experience", "ratedBy": "user5" },
+      { "rating": 5, "comment": "Excellent", "ratedBy": "user5" }
+    ]
+  },
+  {
+    "_id": "user5",
+    "email": "sara@example.com",
+    "password": "hashed102",
+    "name": "Sara Lee",
+    "phone": "123-456-7894",
+    "role": "rider",
+    "isVerified": false,
+    "emergencyContact": { "name": "Emergency Contact", "phone": "987-654-3214" },
+    "ratings": [
+      { "rating": 5, "comment": "Polite rider", "ratedBy": "user4" },
+      { "rating": 5, "comment": "Excellent", "ratedBy": "user4" }
+    ]
+  },
+  {
+    "_id": "user6",
+    "email": "tom@example.com",
+    "password": "hashed103",
+    "name": "Tom Clark",
+    "phone": "123-456-7895",
+    "role": "driver",
+    "isVerified": false,
+    "emergencyContact": { "name": "Emergency Contact", "phone": "987-654-3215" },
+    "ratings": [
+      { "rating": 5, "comment": "Awesome driver", "ratedBy": "user7" }
+    ]
+  },
+  {
+    "_id": "user7",
+    "email": "emily@example.com",
+    "password": "hashed104",
+    "name": "Emily Davis",
+    "phone": "123-456-7896",
+    "role": "rider",
+    "isVerified": false,
+    "emergencyContact": { "name": "Emergency Contact", "phone": "987-654-3216" },
+    "ratings": [
+      { "rating": 4, "comment": "Good rider", "ratedBy": "user6" }
+    ]
+  },
+  {
+    "_id": "user8",
+    "email": "david@example.com",
+    "password": "hashed105",
+    "name": "David Kim",
+    "phone": "123-456-7897",
+    "role": "driver",
+    "isVerified": false,
+    "emergencyContact": { "name": "Emergency Contact", "phone": "987-654-3217" },
+    "ratings": [
+      { "rating": 5, "comment": "Fantastic", "ratedBy": "user9" }
+    ]
+  },
+  {
+    "_id": "user9",
+    "email": "lisa@example.com",
+    "password": "hashed106",
+    "name": "Lisa White",
+    "phone": "123-456-7898",
+    "role": "rider",
+    "isVerified": false,
+    "emergencyContact": { "name": "Emergency Contact", "phone": "987-654-3218" },
+    "ratings": [
+      { "rating": 5, "comment": "Great rider", "ratedBy": "user8" }
+    ]
+  },
+  {
+    "_id": "user10",
+    "email": "paul@example.com",
+    "password": "hashed107",
+    "name": "Paul Green",
+    "phone": "123-456-7899",
+    "role": "driver",
+    "isVerified": false,
+    "emergencyContact": { "name": "Emergency Contact", "phone": "987-654-3219" },
+    "ratings": []
+  }
+]
